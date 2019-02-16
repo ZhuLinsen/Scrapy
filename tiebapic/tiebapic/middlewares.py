@@ -8,7 +8,7 @@ import requests
 from scrapy import signals
 
 
-class ZhihuuserSpiderMiddleware(object):
+class TiebapicSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -56,7 +56,7 @@ class ZhihuuserSpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class ZhihuuserDownloaderMiddleware(object):
+class TiebapicDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
@@ -102,15 +102,4 @@ class ZhihuuserDownloaderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
-class ProxyDownloaderMiddleware(object):
-
-    def process_request(self, request, spider):
-        try:
-            r = requests.get('http://localhost:5555/random')
-            if r.status_code == 200:
-                proxy = r.text
-
-        except:
-            print('获取代理失败')
-        request.meta['proxy'] = 'http://'+proxy
 

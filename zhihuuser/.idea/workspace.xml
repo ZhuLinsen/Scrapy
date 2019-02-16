@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ac21761-e8ce-41d7-a1ca-41d3f3ee8453" name="Default Changelist" comment="" />
+    <list default="true" id="4ac21761-e8ce-41d7-a1ca-41d3f3ee8453" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/zhihuuser/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/zhihuuser/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhihuuser/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zhihuuser/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +15,7 @@
     <session id="-1507013806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.opened" value="3" />
@@ -20,24 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1306" />
+          <entry key="py" value="1599" />
           <entry key="txt" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="94" />
-          <entry key="Python" value="1306" />
+          <entry key="Python" value="1599" />
         </counts>
       </usages-collector>
     </session>
@@ -47,19 +50,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhihuuser/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="462">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zhihuuser/spiders/zhihu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-31">
               <caret line="14" column="35" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zhihuuser/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+              <folding>
+                <element signature="e#168#183#0" expanded="true" />
+                <element signature="e#243#1905#0" />
+                <element signature="e#1226#1453#0" />
+                <element signature="e#1957#3600#0" />
               </folding>
             </state>
           </provider>
@@ -92,9 +110,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/zhihuuser/items.py" />
-        <option value="$PROJECT_DIR$/zhihuuser/settings.py" />
         <option value="$PROJECT_DIR$/zhihuuser/pipelines.py" />
         <option value="$PROJECT_DIR$/zhihuuser/spiders/zhihu.py" />
+        <option value="$PROJECT_DIR$/zhihuuser/settings.py" />
+        <option value="$PROJECT_DIR$/zhihuuser/middlewares.py" />
       </list>
     </option>
   </component>
@@ -198,7 +217,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.0014184397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5304965" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -222,13 +241,6 @@
     <entry file="file://H:/python3WebSpider/Zhihu/zhihuuser/items.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/zhihuuser/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zhihuuser/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -249,6 +261,26 @@
           <caret line="14" column="35" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="35" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihuuser/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zhihuuser/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#168#183#0" expanded="true" />
+            <element signature="e#243#1905#0" />
+            <element signature="e#1226#1453#0" />
+            <element signature="e#1957#3600#0" />
           </folding>
         </state>
       </provider>
