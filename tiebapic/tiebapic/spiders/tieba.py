@@ -15,9 +15,10 @@ class TiebaSpider(Spider):
 
     '''
     构造壁纸吧前两千个页面的请求
+    具体的贴吧吧可查看是否有2000个页面
     '''
     def start_requests(self):
-        for i in range(50):
+        for i in range(2000):
             yield Request(url=self.start_url.format(keyword=self.keyword, page=str(i*50)), callback=self.url_parse)
 
     '''
